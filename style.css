@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+#drum-machine {
+  background-color: grey;
+  height: 400px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+
+#display {
+  width: 180px;
+  height: 60px;
+  margin-right: 80px;
+  color: white;
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  display: flex;
+  border-radius: 8px;
+}
+
+.pads {
+  max-width: 270px;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  margin: auto;
+  display: flex;
+  border-radius: 8px;
+}
+
+button {
+  margin: 5px;
+  height: 80px;
+  width: 80px;
+}
